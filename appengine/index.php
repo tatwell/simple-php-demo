@@ -88,7 +88,7 @@ $content = <<<HTML_CONTENT
            target="_blank">SimpleTest</a> for this project may be found here:</p>
         <p><a href="/test">SimpleTest Tests</a></p>
         <p>Source: <a
-           href="https://github.com/tatwell/simple-php-demo/blob/master/appengine/tests"
+           href="https://github.com/tatwell/simple-php-demo/tree/master/appengine/tests"
            target="_blank">
            tests directory</a></p>
       </div>
