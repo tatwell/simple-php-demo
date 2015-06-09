@@ -1,0 +1,25 @@
+application: tatwell-php-demo
+runtime: php55
+api_version: 1
+
+# Default branch: production
+version: production
+
+
+handlers:
+- url: /test
+  script: test.php
+    
+- url: /.*
+  script: index.php
+  
+  
+skip_files:
+- ^(.*/)?#.*#$
+- ^(.*/)?.*~$
+- ^(.*/)?.*\.py[co]$
+- ^(.*/)?.*/RCS/.*$
+- ^(.*/)?\..*$
+- ^(.*/)?\.bak$
+- ^(.*/)?.*/simpletest/docs/.*$
+- ^(.*/)?.*/simpletest/test/.*$
