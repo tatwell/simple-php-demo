@@ -59,6 +59,7 @@ HTML_HEAD;
 </div>
 HTML_DIV;
 
+        parent::paintPass($message);
         $breadcrumb = $this->getTestList();
         array_shift($breadcrumb);
         printf($format, $breadcrumb[2], $message);

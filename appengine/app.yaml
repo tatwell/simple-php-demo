@@ -3,7 +3,7 @@ runtime: php55
 api_version: 1
 
 # Default branch: production
-version: production
+version: issue-1
 
 
 handlers:

@@ -28,7 +28,9 @@ On Linux, specify the PHP executable path. To locate:
 
 ### Tests
 
-    php ./appengine/tests/*
+From command line:
+
+    php ./appengine/tests/console.php
 
 ### Deployment
 
