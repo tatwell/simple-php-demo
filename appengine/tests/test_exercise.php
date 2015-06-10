@@ -1,5 +1,4 @@
 <?php
-require(dirname(__DIR__). '/simpletest/autorun.php');
 
 class TestExercise extends UnitTestCase {
     function testDoubleDollarSignVariable() {
