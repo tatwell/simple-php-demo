@@ -35,9 +35,11 @@ $content = <<<HTML_CONTENT
       <div id="exercise" class="page-section">
         <h2>Code Exercise</h2>
 
-        <p>Code exercise was an online test completed at <a href="https://tests4geeks.com/"
-           target="_blank"> Tests for Geeks</a>.</p>
-        <p>See Tests section below for a few unit tests based on problems from that test.</p>
+        <p>The Tests section below includes a few unit tests based on problems from an
+           online test completed at <a href="https://tests4geeks.com/" target="_blank">
+           Tests for Geeks</a>.</p>
+
+        <p>If you have a code exercise you'd like to recommend, please email me.</p>
       </div>
 
       <div id="project" class="page-section">
